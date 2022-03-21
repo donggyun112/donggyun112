@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int v[5] = { 3,6,3,3,6 };
+	int v1[5] = { 3,4,5,3,5 };
+	int t = 0;
+	for (int y = 0; y < 5; y++) {
+		t = 0;
+		for (int x = 0; x < 5; x++) {
+			if (v[x] == v1[y]) {
+				t++;
+			}
+		}
+		cout << t << " ";
+	}
+
+
+
+
+	return 0;
+}
