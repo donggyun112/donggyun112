@@ -1,0 +1,28 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+
+int main()
+{
+	/*for (int x = 0; x < 5; x++) {
+		SetCursorPos(300, x);
+		Sleep(1000);
+	}*/
+
+	/*for (int x = 0; x < 5; x++) {
+		cout << "#";
+		Sleep(1000);
+	}*/
+	
+	
+	
+	
+	
+	/*for (int x = 0; x < 10; x++) {
+
+
+		MessageBox(0, L"HI", L"제목", 0);
+	}
+	*/
+
+윈도우 명령어
