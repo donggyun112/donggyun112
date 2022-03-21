@@ -26,3 +26,14 @@ int main()
 	*/
 
 윈도우 명령어
+
+강의 시작반 1레벨 8
+windows.h
+
+L"~"유니코드를표현
+Sleep(1000) 1초 딜레이
+messgebox(0, L"HI",L"제목", 0);
+setcutsorpos 마우스 포인터 이동
+
+break; for문을 종료 시킬 수 있으며 if문과 같이 활용할 수 있다.
+무한 루프돌릴때 while( )
