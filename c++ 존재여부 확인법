@@ -1,0 +1,19 @@
+존재의 여부확인하는 법	
+int v[6];
+	int f = 0;
+	for (int x = 0; x < 6; x++) {
+		cin >> v[x];
+	}
+	for (int x = 0; x < 6; x++) {
+		if (v[x] == 7) {
+			f = 1;
+			break;
+		}
+	}
+	if (f > 0) {
+		cout << "O";
+	}
+	else {
+		cout << "X";
+	}
+	return 0;
