@@ -1,0 +1,17 @@
+c언어 
+#include <stido.h>
+cout = printf( );
+int x = 100 ;
+cout << x; == printf("%d \n", x);
+cin >> a = scanf_s("%d",&a);
+//F10 : Step over
+//F11 : Step into
+//Shift + F5 : 디버그 모드 종료
+//Ctrl + F10 원하는 위치부터 디버깅
+// F9 F5 Breakpoint 걸고 Run
+"\n"컴퓨터 내부적인 속도는 이게 더 빠름
+타입 만들기 struct BTS
+{
+int a;
+int b;
+}
