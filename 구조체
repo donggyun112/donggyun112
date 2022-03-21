@@ -1,0 +1,21 @@
+구조체 
+
+#include <iostream>
+using namespace std;
+struck ABC
+int k
+int v
+void lklk(ABC a)
+{
+
+return {5, 7};
+}
+int main()
+{
+ABC a = {1,2};
+ABC b = {2,3};
+
+lklk({1,2});
+
+return 0;
+}
