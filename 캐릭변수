@@ -1,0 +1,13 @@
+a~b까지의 캐릭변수 출력
+	char a;
+	cin >> a;
+	for (char x = a; x <= a+5; x++) {
+
+		cout << x;
+a~b까지의 int변수 출력		
+	int a;
+	cin >> a;
+	for (int x = a; x < a+5; x++) {
+
+		cout << x;
+		
