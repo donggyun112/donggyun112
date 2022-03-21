@@ -1,0 +1,15 @@
+오늘배울 내용
+char 원리
+2중 for문
+ASCII code 문자 코드 넘버 대문자와 소문자의 간극은 32이다 
+unicode 각 나라별 문자 코드 넘버	
+            char a, b;
+	cin >> a;
+	b = a;
+	if (a >= 'A' && a <= 'Z') {
+;
+		cout << (char)(a + 32);
+	}
+	if (a >= 'a' && a <= 'z') {
+		
+		cout << (char)(b - 32); 
