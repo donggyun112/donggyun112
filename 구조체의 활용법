@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+struct ABC
+{
+	int v;
+	int k;
+};
+
+
+void bts(ABC a)
+{
+	for (int x = 0; x < a.k; x++) {
+		cout << a.v << " ";
+	}
+
+}
+
+int main()
+{
+	
+	bts({3,5});
+
+
+
+	return 0;
+}
+구조체의 활용법
