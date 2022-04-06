@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	char v[3][10] = {
+		"ABCDE",
+		"BT",
+		"KCDE"
+	};
+
+
+
+	for (int x = 0; x < 3; x++) {
+		cout << v[x] << '\n';
+	}
+	
+
+	cin >> v[2];--------------> 문자열이 배열일때 입력하여서 초기화된 문자를 바꿀 수 있다
+
+	return 0;
+}
