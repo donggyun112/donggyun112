@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char v[2][7];
+	
+
+	for (int x = 0; x < 2; x++) {
+		cin >> v[x];
+	}
+
+	int va[2];
+	int len = 0;
+	
+	int t = 0;
+	for (int y = 0; y < 2; y++) {
+		for (int x = 0; x < 7; x++) {
+			if (v[y][x] == '\0') {
+				len = x;
+			}
+		}
+		
+		va[t] = len;
+		t++;
+
+
+
+	
+	}
+	int a = 0;
+	if (va[0] == va[1]) {
+		for (int x = 0; x < va[0]; x++) {
+			if (v[0][x] != v[1][x]) {
+				a++;
+				cout << "다름";
+				break;
+			}
+			
+		}
+		if (a == 0) {
+			cout << "같음";
+		}
+
+		
+	}
+	else {
+		cout << "다름";
+	}
+	
+
+
+
+
+
+
+
+
+	return 0;
+}
