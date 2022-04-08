@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+void Countline(char v[3][10])
+{
+	int len[3];
+	for (int y = 0; y < 3; y++) {
+		for (int x = 0; x < 10; x++) {
+			if (v[y][x] == '\0') {
+				len[y] = x;
+				break;
+			}
+		}
+	}
+	for (int x = 0; x < 3; x++) {
+		cout << len[x] << "=" << v[x] << "\n";
+	}
+}
+
+int main()
+{
+	char v[3][10];
+
+	for (int x = 0; x < 3; x++) {
+		cin >> v[x];
+	}
+
+	Countline(v);
+
+
+
+	return 0;             
+}
