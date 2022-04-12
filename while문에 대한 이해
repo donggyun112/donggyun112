@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char word;
+	cin >> word;
+	char v[3][3];
+
+	int y = 3;
+	int x = 0;
+	int t = 3;
+	while (y > 0) {
+		
+		t = 3;
+		x = 0;
+		while (x < 3) {
+			if (y > t) {
+				v[y - 1][x] = ' ';
+				
+			}
+			else {
+				v[y - 1][x] = word;
+				word++;
+			}
+			t--;
+			
+			
+			
+			x++;
+			
+		}
+		y--;
+		
+		
+	}
+	for (int y = 0; y < 3; y++) {
+		for (int x = 0; x < 3; x++) {
+			cout << v[y][x];
+		}
+		cout << endl;
+	}
+	
+	
+
+
+	return 0;
+}
+
+
