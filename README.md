@@ -20,9 +20,3 @@
 ### MCP ecosystem
 
 - [awesome-mcp-servers #8725](https://github.com/punkpeye/awesome-mcp-servers/pull/8725): Add Keymem, an associative key-graph memory MCP server, to the Knowledge & Memory directory.
-
-## Open PRs and technical discussions
-
-- **Google ADK · open PR:** [#7367](https://github.com/google/adk-python/pull/7367) proposes a fix to prevent LiteLLM from executing tool calls quoted in answer text.
-- **LangGraph · open bug reports:** Diagnose [falsy runtime context values](https://github.com/langchain-ai/langgraph/issues/8406), [async subscription shutdown](https://github.com/langchain-ai/langgraph/issues/8429), and [async tool concurrency](https://github.com/langchain-ai/langgraph/issues/8517) with minimal reproductions and proposed fixes.
-- **Pydantic AI · design discussion:** Contribute [durable replay design feedback](https://github.com/pydantic/pydantic-ai/issues/7971#issuecomment-5524973741) on queued-message deduplication, event identity, and persist-before-delivery ordering.
