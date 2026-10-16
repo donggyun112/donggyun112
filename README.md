@@ -2,6 +2,8 @@
 
 [AI Research Knowledge Base](https://donggyun112.github.io/knowledge-base/) — Notes on agents, retrieval, inference, and memory experiments.
 
+[Threads @dong_kseo](https://www.threads.com/@dong_kseo) — Writing about AI agents and development.
+
 ## Landed contributions
 
 ### Google ADK
