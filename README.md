@@ -1,3 +1,7 @@
+## Research notes
+
+[AI Research Knowledge Base](https://donggyun112.github.io/knowledge-base/) — Notes on agents, retrieval, inference, and memory experiments.
+
 ## Landed contributions
 
 ### Google ADK
