@@ -22,6 +22,11 @@
 
 - [#2386](https://github.com/edwardkim/rhwp/pull/2386): Preserve section-start markers when inserting the first paragraph, preventing an extra blank page. Merge commit: [0f8c617](https://github.com/edwardkim/rhwp/commit/0f8c6173c421323fe98371fb646fc2f6bdce78b5).
 - [#2388](https://github.com/edwardkim/rhwp/pull/2388): Generate preview text for template-created HWP documents while preserving existing previews. Merge commit: [010705e](https://github.com/edwardkim/rhwp/commit/010705e016104a5b4184d51266bb75e50db6eb8c).
+- [#7978](https://github.com/edwardkim/rhwp/pull/7978): Fix cursor positions and undo/redo for supplementary Unicode characters in headers, footers, and footnotes. Landed via [#7997](https://github.com/edwardkim/rhwp/pull/7997) · commit [8766fb4](https://github.com/edwardkim/rhwp/commit/8766fb47d8ec11547f0d2ae941c53cc3c9780ab2).
+- [#7985](https://github.com/edwardkim/rhwp/pull/7985): Reject unsupported cross-section selection edits before mutation, preserving document content and undo/redo history. Landed via [#7997](https://github.com/edwardkim/rhwp/pull/7997) · commit [8766fb4](https://github.com/edwardkim/rhwp/commit/8766fb47d8ec11547f0d2ae941c53cc3c9780ab2).
+- [#7988](https://github.com/edwardkim/rhwp/pull/7988): Use original-text match lengths in case-insensitive replacement to preserve surrounding Unicode text. Landed via [#7997](https://github.com/edwardkim/rhwp/pull/7997) · commit [8766fb4](https://github.com/edwardkim/rhwp/commit/8766fb47d8ec11547f0d2ae941c53cc3c9780ab2).
+- [#8000](https://github.com/edwardkim/rhwp/pull/8000): Prevent overlapping search matches from deleting trailing text during replacement. Landed via [#8004](https://github.com/edwardkim/rhwp/pull/8004) · commit [6ed1682](https://github.com/edwardkim/rhwp/commit/6ed1682c3267ea786734eb2e75252916a861d1fd).
+- [#8002](https://github.com/edwardkim/rhwp/pull/8002): Normalize CRLF/CR editing input to prevent text loss when saving HWP documents. Landed via [#8004](https://github.com/edwardkim/rhwp/pull/8004) · commit [6ed1682](https://github.com/edwardkim/rhwp/commit/6ed1682c3267ea786734eb2e75252916a861d1fd).
 
 ### [MCP ecosystem](https://github.com/punkpeye/awesome-mcp-servers)
 
