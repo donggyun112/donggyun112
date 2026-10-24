@@ -8,6 +8,7 @@
 
 ### [Google ADK](https://github.com/google/adk-python)
 
+- [#7367](https://github.com/google/adk-python/pull/7367): Prevent LiteLlm from executing tool calls quoted in answer text. Landed via Copybara: [6b00a38](https://github.com/google/adk-python/commit/6b00a38901e7181801f645e5890da54aa322b6dc).
 - [#7513](https://github.com/google/adk-python/pull/7513): Prevent deleted SQLite session events from reappearing when a session ID is reused. Landed via Copybara: [3b2b949](https://github.com/google/adk-python/commit/3b2b949c4b0b2a063b01e838d0fdde4aa93336d7).
 - [#7426](https://github.com/google/adk-python/pull/7426): Preserve floating-point precision in SQLite session state. Landed via Copybara: [13787a5](https://github.com/google/adk-python/commit/13787a5bd43fcc7306f5b14dc87ff633bd6e7ea2).
 - [#7327](https://github.com/google/adk-python/pull/7327): Fix async database dependencies and improve missing-dependency errors. Landed via Copybara: [ffc2494](https://github.com/google/adk-python/commit/ffc2494a656d4fdaaec1c930d1124bba339a3cfd).
